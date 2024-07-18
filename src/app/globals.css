@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'SUIT-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family:'SUIT-Regular'
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -28,6 +38,85 @@ body {
 
 @layer utilities {
   .text-balance {
-    text-wrap: balance;
+    text-wrap: normal;
   }
+}
+
+.nav-underline {
+  width: 100%;
+  height: 100%;
+  background: #b92b27;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.parent-nav-underline{
+  width: 100%;
+  height: 5px;
+  position: fixed;
+}
+
+.name-div {
+  font-weight: 800;
+}
+
+.occupation-div {
+  font-weight: 400;
+}
+
+.tooltip {
+  @apply invisible absolute;
+  background: black;
+  color: white;
+  text-shadow: 0 0 black;
+  padding: 6px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+}
+
+.has-tooltip:hover .tooltip {
+  @apply visible z-50;
+}
+
+.common-btn {
+  background: #00025c;
+}
+
+.modal-wrapper {
+  width: 500px;
+  height: 600px;
+}
+
+.modal {
+  background: white;
+  height:100%;
+  width:100%;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-body {
+  padding-top: 10px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 25px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center; /* 수직 정렬 설정 */
 }

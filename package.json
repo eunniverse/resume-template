@@ -9,18 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@headlessui/react": "^2.1.2",
+    "@material-tailwind/react": "^2.1.9",
+    "emailjs": "^4.0.3",
+    "next": "14.2.5",
+    "nodemailer": "^6.9.14",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "react-icons": "^5.2.1",
+    "react-scroll-percentage-hook": "^1.2.2",
+    "styled-component": "^2.8.0"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
+    "@types/nodemailer": "^6.4.15",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.5"
+    "typescript": "^5"
   }
 }
