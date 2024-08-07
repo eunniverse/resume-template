@@ -125,6 +125,7 @@ body {
 @layer components {
   .tech-tag {
     @apply p-1 text-white rounded-lg shadow-sm focus:outline-none text-xs;
+    flex-wrap: wrap;
   }
 }
 
@@ -182,4 +183,8 @@ body {
 
 .other-experience-tag {
   @apply tech-tag bg-yellow-600 ml-2.5 pl-2 pr-2;
+}
+
+.level-tag {
+  @apply tech-tag bg-primaryColor ml-1.5 pl-1.5 pt-1 pb-1 pr-1.5;
 }

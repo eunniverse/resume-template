@@ -52,6 +52,7 @@ export const WorkExperience = () => {
                         <span className='tech-stack-tag'>JAVA</span>
                         <span className='tech-stack-tag'>MariaDB</span>
                         <span className='tech-stack-tag'>Tomcat</span>
+                        <span className='tech-stack-tag'>Storybook</span>
                     </div>
                     <hr className='mt-5 mb-3'/>
                     <h1 className='text-2xl font-bold pt-1.5'>
@@ -79,7 +80,7 @@ export const WorkExperience = () => {
                         <span className='tech-stack-tag'>GraphQL</span>
                         <span className='tech-stack-tag'>Webpack</span>
                         <span className='tech-stack-tag'>NodeJS</span>
-                        <span className='tech-stack-tag'>Spring boot</span>
+                        <span className='tech-stack-tag'>SpringBoot</span>
                         <span className='tech-stack-tag'>JAVA</span>
                         <span className='tech-stack-tag'>Redis</span>
                         <span className='tech-stack-tag'>MariaDB</span>
@@ -132,7 +133,7 @@ export const WorkExperience = () => {
                     <div className='pt-4'>
                         <div className='title-tag'>사용 기술</div>
                         <span className='tech-stack-tag'>Swift</span>
-                        <span className='tech-stack-tag'>JAVA</span>
+                        <span className='tech-stack-tag'>Android (JAVA)</span>
                     </div>
 
                     <hr className='mt-5 mb-3'/>
@@ -207,6 +208,7 @@ export const WorkExperience = () => {
                         <span className='tech-stack-tag'>JAVA</span>
                         <span className='tech-stack-tag'>Oracle</span>
                         <span className='tech-stack-tag'>Tomcat</span>
+                        <span className='tech-stack-tag'>Jenkins</span>
                     </div>
                     <hr className='mt-5 mb-3'/>
                     <h1 className='text-2xl font-bold pt-1.5'>
@@ -233,6 +235,7 @@ export const WorkExperience = () => {
                         <span className='tech-stack-tag'>JAVA</span>
                         <span className='tech-stack-tag'>Oracle</span>
                         <span className='tech-stack-tag'>Tomcat</span>
+                        <span className='tech-stack-tag'>Jenkins</span>
                     </div>
 
                     <hr className='mt-5 mb-3'/>

@@ -27,7 +27,7 @@ const OtherExperience = () => {
                         <span className='tech-stack-tag'>ReactJS</span>
                         <span className='tech-stack-tag'>Javascript</span>
                         <span className='tech-stack-tag'>rollup</span>
-                        <span className='tech-stack-tag'>babel</span>
+                        <span className='tech-stack-tag'>Babel</span>
                     </div>
                     <hr className='mt-5 mb-5'/>
 
@@ -47,10 +47,10 @@ const OtherExperience = () => {
                     <div className='pt-4'>
                         <span className='tech-stack-tag'>ReactJS</span>
                         <span className='tech-stack-tag'>Javascript</span>
-                        <span className='tech-stack-tag'>scss</span>
+                        <span className='tech-stack-tag'>SCSS</span>
                         <span className='tech-stack-tag'>Tailwind CSS</span>
                         <span className='tech-stack-tag'>Zustand</span>
-                        <span className='tech-stack-tag'>babel</span>
+                        <span className='tech-stack-tag'>Babel</span>
                     </div>
                     <hr className='mt-5 mb-3'/>
 
@@ -71,9 +71,9 @@ const OtherExperience = () => {
                         <span className='tech-stack-tag'>ReactJS</span>
                         <span className='tech-stack-tag'>Typescript</span>
                         <span className='tech-stack-tag'>NextJS</span>
-                        <span className='tech-stack-tag'>scss</span>
+                        <span className='tech-stack-tag'>SCSS</span>
                         <span className='tech-stack-tag'>Tailwind CSS</span>
-                        <span className='tech-stack-tag'>babel</span>
+                        <span className='tech-stack-tag'>Babel</span>
                     </div>
                     <hr className='mt-5 mb-3'/>
 
@@ -81,7 +81,7 @@ const OtherExperience = () => {
                     <h1 className='text-2xl font-bold pt-1.5 inline italic'>
                         AI 입사 컨설팅
                     </h1>
-                    <span className='other-experience-tag'>Owner</span>
+                    <span className='other-experience-tag'>Frontend 개발</span>
                     <div className='pt-4'>
                         <span className='text-md'>사용자의 코딩 수준, 진행한 프로젝트 등 여러 정보를 AI 로 처리하여 회사를 추천합니다. Frontend 개발을 전반적으로 담당하며, 진행 중입니다.</span>
                     </div>
