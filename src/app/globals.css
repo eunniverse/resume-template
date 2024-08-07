@@ -49,7 +49,8 @@ body {
   background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.parent-nav-underline{
+
+.parent-nav-underline {
   width: 100%;
   height: 5px;
   position: fixed;
@@ -119,4 +120,66 @@ body {
 .flex-container {
   display: flex;
   align-items: center; /* 수직 정렬 설정 */
+}
+
+@layer components {
+  .tech-tag {
+    @apply p-1 text-white rounded-lg shadow-sm focus:outline-none text-xs;
+  }
+}
+
+.front-tech-tag {
+  @apply tech-tag bg-green-500;
+}
+
+.backend-tech-tag {
+  @apply tech-tag bg-blue-500;
+}
+
+.mobile-tech-tag {
+  @apply tech-tag bg-gray-600;
+}
+
+.tech-stack-tag {
+  @apply tech-tag bg-blue-800 ml-1.5 p-1 pl-1.5 pr-1.5;
+}
+
+.date-text {
+  @apply italic text-gray-500 pt-1.5;
+}
+
+.custom-list-disc {
+  list-style: none;
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.custom-list-disc::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #1565C0;
+}
+
+.title-tag {
+  @apply text-lg font-semibold mb-2;
+}
+
+.tech-type {
+  @apply text-2xl font-semibold;
+}
+
+.tech-cell {
+  @apply text-left text-base;
+}
+
+.tech-cell::before {
+  @apply text-primaryColor;
+  content: '•  ';
+  left: 0;
+}
+
+.other-experience-tag {
+  @apply tech-tag bg-yellow-600 ml-2.5 pl-2 pr-2;
 }

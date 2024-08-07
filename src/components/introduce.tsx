@@ -4,7 +4,7 @@ import { FaCheck } from "react-icons/fa";
 
 export const Introduce = () => {
     return (
-        <div className='w-4/5 px-2 pt-4 inset-x-0 top-0'>
+        <div className='w-3/5 px-2 pt-4 inset-x-0 top-0'>
             <h1 className='text-primaryColor font-extrabold	text-4xl'>#INTRODUCE</h1>
             <div className='flex w-full'>
                 <div className='flex-initial w-72'>

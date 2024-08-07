@@ -4,11 +4,7 @@
 import * as React from 'react';
 import useScrollPercentage from 'react-scroll-percentage-hook';
 
-type Props = {
-
-};
-
-export const HeadLoading = (props: Props) => {
+export const HeadLoading = () => {
     const { percentage } = useScrollPercentage<HTMLDivElement>({ windowScroll: true });
 
     return (
