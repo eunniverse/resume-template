@@ -5,9 +5,11 @@ import { useState } from 'react';
 import { FaBlogger , FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { EmailModal } from "@/components/Detail/EmailModal";
+import {useTranslations} from "next-intl";
 
 export const Header = () => {
     const [show, setShow] = useState(false);
+    const t = useTranslations('Index');
 
     const openModal = () => setShow(true);
     const closeModal = () => setShow(false);

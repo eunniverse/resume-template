@@ -44,7 +44,7 @@ export const EmailModal = (props: Props) => {
     const modalContent:React.JSX.Element = (
         <div className="modal-overlay">
             <div className="modal-wrapper">
-                <div className="modal">
+                <div className="modal bg-white dark:bg-black dark:border-2 dark:border-slate-600">
                     <div className="modal-header w-full flex-container">
                         <span className='h-full w-full pl-2 text-left'>
                             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">

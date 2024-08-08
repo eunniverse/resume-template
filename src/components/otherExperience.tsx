@@ -17,10 +17,10 @@ const OtherExperience = () => {
                     </div>
                     <div className='pt-4 flex space-x-4'>
                         <a href="https://www.npmjs.com/package/react-scroll-header-loading" target="_blank" rel="noopener noreferrer">
-                            <FaNpm color='red' className='text-5xl inline' />
+                            <FaNpm className='npm-tag' />
                         </a>
                         <a href="https://github.com/eunniverse/react-scroll-header-loading" target="_blank" rel="noopener noreferrer">
-                            <FaGithub color='black' className='text-4xl ml-1 mt-1.5' />
+                            <FaGithub className='github-tag' />
                         </a>
                     </div>
                     <div className='pt-4'>
@@ -41,7 +41,7 @@ const OtherExperience = () => {
                     </div>
                     <div className='pt-4 flex space-x-4'>
                         <a href="https://github.com/hyunzi/MyVitaminsAi" target="_blank" rel="noopener noreferrer">
-                            <FaGithub color='black' className='text-4xl ml-1 mt-1.5' />
+                            <FaGithub className='github-tag' />
                         </a>
                     </div>
                     <div className='pt-4'>
@@ -64,7 +64,7 @@ const OtherExperience = () => {
                     </div>
                     <div className='pt-4 flex space-x-4'>
                         <a href="https://github.com/eunniverse/resume-form" target="_blank" rel="noopener noreferrer">
-                            <FaGithub color='black' className='text-4xl ml-1 mt-1.5' />
+                            <FaGithub className='github-tag'/>
                         </a>
                     </div>
                     <div className='pt-4'>
@@ -87,7 +87,7 @@ const OtherExperience = () => {
                     </div>
                     <div className='pt-4 flex space-x-4'>
                         <a href="https://github.com/AI-Employment-Consulting" target="_blank" rel="noopener noreferrer">
-                            <FaGithub color='black' className='text-4xl ml-1 mt-1.5' />
+                            <FaGithub className='github-tag'/>
                         </a>
                     </div>
                     <div className='pt-4'>

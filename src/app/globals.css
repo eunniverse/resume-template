@@ -176,7 +176,7 @@ body {
 }
 
 .tech-cell::before {
-  @apply text-primaryColor;
+  @apply text-primary;
   content: '•  ';
   left: 0;
 }
@@ -186,5 +186,13 @@ body {
 }
 
 .level-tag {
-  @apply tech-tag bg-primaryColor ml-1.5 pl-1.5 pt-1 pb-1 pr-1.5;
+  @apply tech-tag bg-primary ml-1.5 pl-1.5 pt-1 pb-1 pr-1.5;
+}
+
+.github-tag {
+  @apply text-4xl ml-1 mt-1.5 text-black dark:text-white;
+}
+
+.npm-tag {
+  @apply text-5xl inline text-red-700;
 }

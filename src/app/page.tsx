@@ -9,7 +9,7 @@ import OtherExperience from "@/components/otherExperience";
 
 export default function Home() {
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between bg-white">
+        <main className="flex min-h-screen flex-col items-center justify-between bg-white dark:bg-black text-black dark:text-white">
             <HeadLoading/>
             <Header/>
             <Introduce/>
