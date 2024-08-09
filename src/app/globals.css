@@ -182,7 +182,7 @@ body {
 }
 
 .other-experience-tag {
-  @apply tech-tag bg-yellow-600 ml-2.5 pl-2 pr-2;
+  @apply tech-tag bg-yellow-600 ml-2.5 pl-2 pr-2 whitespace-nowrap;
 }
 
 .level-tag {
