@@ -1,7 +1,18 @@
 {
   "common": {
     "ko": "ko",
-    "en": "en"
+    "en": "en",
+    "emailModal": {
+      "finishedSend": "Thank you for reaching out! I will get back to you as soon as possible.",
+      "errorSend": "Failed to send the message.\nPlease contact me at eunisss98@gmail.com!",
+      "modalTitle": "Send Email",
+      "company": "Company",
+      "name": "Name",
+      "email": "Email",
+      "mobile": "Phone Number",
+      "message": "Message",
+      "send": "Send"
+    }
   },
   "header": {
     "koDisplayName": "Eunhee Jang",

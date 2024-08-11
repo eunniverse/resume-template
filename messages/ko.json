@@ -1,7 +1,18 @@
 {
   "common": {
     "ko": "ko",
-    "en": "en"
+    "en": "en",
+    "emailModal": {
+      "finishedSend": "연락주셔서 감사합니다! 빠른 시간 내에 답변드리겠습니다!",
+      "errorSend": "메시지 전송이 실패했습니다.\neunisss98@gmail.com 으로 연락 부탁드립니다!",
+      "modalTitle": "메일전송",
+      "company": "기업명",
+      "name": "성함",
+      "email": "이메일",
+      "mobile": "전화번호",
+      "message": "메시지",
+      "send": "전송"
+    }
   },
   "header": {
     "koDisplayName": "장은희",
