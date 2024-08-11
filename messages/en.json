@@ -1,5 +1,366 @@
 {
+  "common": {
+    "ko": "ko",
+    "en": "en"
+  },
   "header": {
-    "title": "Hello world!"
+    "koDisplayName": "Eunhee Jang",
+    "enDisplayName": "Ann Jang",
+    "job": "Frontend Engineer",
+    "iconList": {
+      "blogTooltipText": "I document my studies.",
+      "gitTooltipText": "I create projects.",
+      "emailTooltipText": "Please contact me via email."
+    }
+  },
+  "introduce": {
+    "title": "#INTRODUCE",
+    "headerComment": "I am a developer with 6 years of experience, continuously growing based on various development experiences.",
+    "commentList": {
+      "0": "Experience in backend development allows a quick understanding of the overall structure of the product.",
+      "1": "I have various improvement experiences in frontend, including test automation and rendering speed optimization.",
+      "2": "I pursue a culture of shared growth and run junior developer study groups in the company.",
+      "3": "I document my outputs from side projects and studies on my blog.",
+      "4": "I constantly think about good UX and always consider the user perspective during development."
+    }
+  },
+  "techStack": {
+    "title": "#TECH STACK",
+    "info": "3: Immediately applicable to work \n2: Usable based on experience \n1: Some experience",
+    "type": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "Mobile",
+      "devops": "DevOps"
+    },
+    "frontend": {
+      "tech": {
+        "0": "VueJS",
+        "1": "ReactJS",
+        "2": "Javascript",
+        "3": "HTML/CSS",
+        "4": "NodeJS",
+        "5": "Typescript",
+        "6": "Vite",
+        "7": "Webpack",
+        "8": "Rollup",
+        "9": "Babel",
+        "10": "Tailwind CSS",
+        "11": "SCSS",
+        "12": "Zustand",
+        "13": "Cypress",
+        "14": "Storybook",
+        "15": "GraphQL",
+        "16": "Pinia"
+      },
+      "level": {
+        "0": "3",
+        "1": "3",
+        "2": "3",
+        "3": "3",
+        "4": "3",
+        "5": "3",
+        "6": "2",
+        "7": "2",
+        "8": "2",
+        "9": "2",
+        "10": "2",
+        "11": "2",
+        "12": "2",
+        "13": "2",
+        "14": "2",
+        "15": "1",
+        "16": "1"
+      }
+    },
+    "backend": {
+      "tech": {
+        "0": "Spring",
+        "1": "SpringBoot",
+        "2": "Javascript",
+        "3": "JAVA",
+        "4": "NodeJS",
+        "5": "Tomcat",
+        "6": "MyBatis",
+        "7": "MySQL",
+        "8": "MariaDB",
+        "9": "MongoDB",
+        "10": "nginx",
+        "11": "Redis"
+      },
+      "level": {
+        "0": "3",
+        "1": "3",
+        "2": "3",
+        "3": "3",
+        "4": "2",
+        "5": "2",
+        "6": "2",
+        "7": "2",
+        "8": "1",
+        "9": "1",
+        "10": "1"
+      }
+    },
+    "mobile": {
+      "tech": {
+        "0": "Swift",
+        "1": "Android"
+      },
+      "level": {
+        "0": "2",
+        "1": "2"
+      }
+    },
+    "devops": {
+      "tech": {
+        "0": "Github",
+        "1": "Gitlab",
+        "2": "Docker",
+        "3": "Jenkins",
+        "4": "Teamcity"
+      },
+      "level": {
+        "0": "2",
+        "1": "2",
+        "2": "1",
+        "3": "1",
+        "4": "1"
+      }
+    }
+  },
+  "workExperience": {
+    "title": "#WORK EXPERIENCE",
+    "intro": "Introduction",
+    "myWork": "Contributions",
+    "tech": "Technologies",
+    "pnpSecure": {
+      "name": "PNP Secure",
+      "roles": {
+        "0": "Frontend",
+        "1": "Backend",
+        "2": "iOS",
+        "3": "Android"
+      },
+      "hireDate": "2019.04 ~ 2024.08",
+      "teamInfo": "Web Platform Team 2 / Researcher",
+      "project": {
+        "0": {
+          "title": "User Approval System Development",
+          "dueDate": "2023.07 ~ 2024.08 / 2020.01 ~ 2020.07",
+          "intro": "Developed a system that provides approval for server and DBMS account permissions and commands, responsible for both frontend and backend development. Focused on improving the frontend environment and UX.",
+          "myWork": {
+            "0": "Improved resource usage and speed with Webpack-bundle-analyzer",
+            "1": "Expanded product sales range by applying multilingual support",
+            "2": "Managed frontend development environment by updating NodeJS version, introducing storybook, etc.",
+            "3": "Improved bug rate by introducing Cypress",
+            "4": "Enhanced UX by applying SSE for real-time progress monitoring"
+          },
+          "tech": {
+            "0": "VueJS",
+            "1": "SCSS",
+            "2": "Pinia",
+            "3": "NodeJS",
+            "4": "Spring",
+            "5": "JAVA",
+            "6": "MariaDB",
+            "7": "Tomcat",
+            "8": "Storybook"
+          }
+        },
+        "1": {
+          "title": "Real-time Facial Recognition Management System Development",
+          "dueDate": "2021.01 ~ 2023.06",
+          "intro": "Developed a system using facial information for user authentication, responsible for both frontend and backend development. Focused on improving API and designing UI that clearly conveys real-time data.",
+          "myWork": {
+            "0": "Expanded browser support through cross-browser compatibility",
+            "1": "Designed and implemented dashboard UI",
+            "2": "Improved API query speed for facial recognition management system by applying Redis",
+            "3": "Reduced CPU usage by 40% through API improvements",
+            "4": "Enhanced code readability by file splitting and component separation"
+          },
+          "tech": {
+            "0": "VueJS",
+            "1": "SCSS",
+            "2": "GraphQL",
+            "3": "NodeJS",
+            "4": "Webpack",
+            "5": "JAVA",
+            "6": "SpringBoot",
+            "7": "Tomcat",
+            "8": "Redis",
+            "9": "MariaDB"
+          }
+        },
+        "2": {
+          "title": "In-house Product License System Development",
+          "dueDate": "2020.12 ~ 2020.12",
+          "intro": "Developed a system for managing customer companies using in-house OTP, responsible for both frontend and backend development. Completed development in a week based on NodeJS due to tight schedule.",
+          "myWork": {
+            "0": "Set up frontend/backend technology environment and implemented basic functions",
+            "1": "Designed and developed RESTful API",
+            "2": "Developed infinite scroll component for large data handling"
+          },
+          "tech": {
+            "0": "VueJS",
+            "1": "SCSS",
+            "2": "MongoDB",
+            "3": "NodeJS",
+            "4": "Webpack"
+          }
+        },
+        "3": {
+          "title": "OTP Mobile App Development",
+          "dueDate": "2020.08 ~ 2020.12",
+          "intro": "Solely responsible for the architecture design, development, and deployment of an in-house OTP generation mobile app for authentication systems.",
+          "myWork": {
+            "0": "Designed and developed mobile UI based on Google Material Design",
+            "1": "Experienced iOS and Android app review and deployment process",
+            "2": "Designed mobile app architecture"
+          },
+          "tech": {
+            "0": "Swift",
+            "1": "Android (JAVA)"
+          }
+        },
+        "4": {
+          "title": "In-house Sales Management System Improvement",
+          "dueDate": "2019.04 ~ 2019.12",
+          "intro": "Responsible for frontend and backend development of an in-house sales management system used for product orders, customer management, etc. Focused on resolving existing issues such as slow query speeds and improving frontend technology environment.",
+          "myWork": {
+            "0": "Applied Javascript ES6",
+            "1": "Improved main page UI",
+            "2": "Optimized query performance to enhance sales management query speed"
+          },
+          "tech": {
+            "0": "Javascript",
+            "1": "HTML/CSS",
+            "2": "NodeJS",
+            "3": "JSP",
+            "4": "Spring",
+            "5": "JAVA",
+            "6": "MariaDB",
+            "7": "Tomcat"
+          }
+        }
+      }
+    },
+    "KLNet": {
+      "name": "KLNet",
+      "roles": {
+        "0": "Frontend",
+        "1": "Backend"
+      },
+      "hireDate": "2016.10 ~ 2018.04",
+      "teamInfo": "eBiz Development Team / Staff",
+      "project": {
+        "0": {
+          "title": "Electronic Tax Invoice System Maintenance",
+          "dueDate": "2017.05 ~ 2018.04",
+          "intro": "Developed and maintained a system for issuing and viewing tax invoices on the web, handling both frontend and backend development. In addition to basic maintenance, developed various new features according to business requirements.",
+          "myWork": {
+            "0": "Responded to ISMS certification",
+            "1": "Added invoice issuance notification feature via message",
+            "2": "Maintained existing business logic"
+          },
+          "tech": {
+            "0": "JSP",
+            "1": "Spring",
+            "2": "JAVA",
+            "3": "Oracle",
+            "4": "Tomcat",
+            "5": "Jenkins"
+          }
+        },
+        "1": {
+          "title": "Electronic Tax Invoice System UI Improvement",
+          "dueDate": "2016.10 ~ 2017.04",
+          "intro": "First task as an intern, improved the UI from Flex to JSP due to the end of Flash support in IE browser.",
+          "myWork": {
+            "0": "Removed legacy code",
+            "1": "Improved UI for user information management and tax invoice inquiry",
+            "2": "Conducted browser compatibility testing and response"
+          },
+          "tech": {
+            "0": "JSP",
+            "1": "Flex",
+            "2": "Spring",
+            "3": "JAVA",
+            "4": "Oracle",
+            "5": "Tomcat",
+            "6": "Jenkins"
+          }
+        }
+      }
+    }
+  },
+  "otherExperience": {
+    "title": "#OTHER EXPERIENCE",
+    "project": {
+      "0": {
+        "title": "react-scroll-header-loading",
+        "role": "Owner",
+        "desc": "This is a top loading bar component based on Javascript scroll event. It recorded over 300 downloads in just two weeks after release.",
+        "tech": {
+          "0": "ReactJS",
+          "1": "Javascript",
+          "2": "rollup",
+          "3": "Babel"
+        }
+      },
+      "1": {
+        "title": "Participation in Jocode AI Hackathon with Google - My Vitamin AI Solution Service",
+        "role": "Frontend Developer",
+        "desc": "Provides vitamin recommendations and combinations through the Gemini API. Solely responsible for frontend development, set up technical environment, and implemented Skeleton loading within 4 days.",
+        "tech": {
+          "0": "ReactJS",
+          "1": "Javascript",
+          "2": "SCSS",
+          "3": "Tailwind CSS",
+          "4": "Zustand",
+          "5": "Babel"
+        }
+      },
+      "2": {
+        "title": "resume-template",
+        "role": "Owner",
+        "desc": "Implemented a resume web template based on NextJS and Typescript.",
+        "tech": {
+          "0": "ReactJS",
+          "1": "Typescript",
+          "2": "NextJS",
+          "3": "SCSS",
+          "4": "Tailwind CSS",
+          "5": "Babel"
+        }
+      },
+      "3": {
+        "title": "AI Employment Consulting",
+        "role": "Frontend Developer",
+        "desc": "Provides company recommendations by processing various information such as user's coding skills and projects with AI. Responsible for overall frontend development, currently in progress.",
+        "tech": {
+          "0": "ReactJS",
+          "1": "Typescript",
+          "2": "Vite",
+          "3": "Zustand",
+          "4": "Tailwind CSS",
+          "5": "Storybook",
+          "6": "Cypress"
+        }
+      }
+    }
+  },
+  "educationList": {
+    "title": "#EDUCATION",
+    "0": {
+      "name": "Inha University",
+      "status": "Expected Graduation",
+      "desc": "I am a class of 2021 student in the Department of Software Convergence Engineering, expected to graduate in February 2025."
+    },
+    "1": {
+      "name": "Mirim Girls' Information Science High School",
+      "status": "Graduated",
+      "desc": "I entered the New Media Solution Department in 2014 and graduated in 2016. I immediately started my career as a web developer after graduation."
+    }
   }
 }

@@ -6,6 +6,7 @@ import {Header} from "@/components/header";
 import {HeadLoading} from "@/components/headLoading";
 import TechStack from "@/components/techStack";
 import OtherExperience from "@/components/otherExperience";
+import EducationList from "@/components/educationList";
 
 export default function Home() {
     return (
@@ -17,6 +18,7 @@ export default function Home() {
             <TechStack/>
             <WorkExperience/>
             <OtherExperience/>
+            <EducationList/>
         </main>
   );
 }

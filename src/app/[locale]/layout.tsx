@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import {NextIntlClientProvider} from 'next-intl';
-import {getLocale, getMessages} from 'next-intl/server';
+import {notFound} from "next/navigation";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,12 +13,19 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({
   children,
+  params: { locale }
 }: Readonly<{
   children: React.ReactNode;
+  params: { locale: string };
 }>) {
 
-  const locale= await getLocale();
-  const messages= await getMessages();
+    let messages;
+    try {
+        messages = (await import(`../../../messages/${locale}.json`)).default;
+    } catch (error) {
+        console.log(error)
+        notFound();
+    }
 
   return (
     <html lang={locale}>

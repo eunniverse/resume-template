@@ -1,26 +1,366 @@
 {
+  "common": {
+    "ko": "ko",
+    "en": "en"
+  },
   "header": {
-    "koDisplayName": "",
-    "enDisplayName": "",
-    "job": ""
+    "koDisplayName": "장은희",
+    "enDisplayName": "Ann Jang",
+    "job": "Frontend Engineer",
+    "iconList": {
+      "blogTooltipText": "공부를 기록합니다.",
+      "gitTooltipText": "프로젝트를 만듭니다.",
+      "emailTooltipText": "메일로 연락부탁드립니다."
+    }
   },
   "introduce": {
-    "headerComment": "",
+    "title": "#INTRODUCE",
+    "headerComment": "다양한 개발 경험을 기반으로 지속적인 성장을 해나아가는 6년차 개발자, 장은희입니다.",
     "commentList": {
-      "1": "",
-      "2": "",
-      "3": "",
-      "4": "",
-      "5": ""
+      "0": "Backend 개발 경험이 있어서 제품의 전체적인 구조를 빠르게 이해할 수 있습니다.",
+      "1": "테스트 자동화, 렌더링 속도 최적화 등 Frontend 관련 다양한 개선 경험이 있습니다.",
+      "2": "함께 성장하는 개발 문화를 추구하여 사내 주니어 스터디를 운영합니다.",
+      "3": "사이드 프로젝트 및 공부를 통한 산출물을 블로그에 기록합니다.",
+      "4": "좋은 UX에 대하여 끊임없이 고민하고, 늘 사용자 관점을 고안하며 개발합니다."
     }
   },
   "techStack": {
-
+    "title": "#TECH STACK",
+    "info": "3: 업무에 바로 적용 가능 \n 2: 경험 기반으로 사용 가능 \n1: 사용 경험이 있음",
+    "type": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "Mobile",
+      "devops": "DevOps"
+    },
+    "frontend": {
+      "tech": {
+        "0": "VueJS",
+        "1": "ReactJS",
+        "2": "Javascript",
+        "3": "HTML/CSS",
+        "4": "NodeJS",
+        "5": "Typescript",
+        "6": "Vite",
+        "7": "Webpack",
+        "8": "Rollup",
+        "9": "Babel",
+        "10": "Tailwind CSS",
+        "11": "SCSS",
+        "12": "Zustand",
+        "13": "Cypress",
+        "14": "Storybook",
+        "15": "GraphQL",
+        "16": "Pinia"
+      },
+      "level": {
+        "0": "3",
+        "1": "3",
+        "2": "3",
+        "3": "3",
+        "4": "3",
+        "5": "3",
+        "6": "2",
+        "7": "2",
+        "8": "2",
+        "9": "2",
+        "10": "2",
+        "11": "2",
+        "12": "2",
+        "13": "2",
+        "14": "2",
+        "15": "1",
+        "16": "1"
+      }
+    },
+    "backend": {
+      "tech": {
+        "0": "Spring",
+        "1": "SpringBoot",
+        "2": "Javascript",
+        "3": "JAVA",
+        "4": "NodeJS",
+        "5": "Tomcat",
+        "6": "MyBatis",
+        "7": "MySQL",
+        "8": "MariaDB",
+        "9": "MongoDB",
+        "10": "nginx",
+        "11": "Redis"
+      },
+      "level": {
+        "0": "3",
+        "1": "3",
+        "2": "3",
+        "3": "3",
+        "4": "2",
+        "5": "2",
+        "6": "2",
+        "7": "2",
+        "8": "1",
+        "9": "1",
+        "10": "1"
+      }
+    },
+    "mobile": {
+      "tech": {
+        "0": "Swift",
+        "1": "Android"
+      },
+      "level": {
+        "0": "2",
+        "1": "2"
+      }
+    },
+    "devops": {
+      "tech": {
+        "0": "Github",
+        "1": "Gitlab",
+        "2": "Docker",
+        "3": "Jenkins",
+        "4": "Teamcity"
+      },
+      "level": {
+        "0": "2",
+        "1": "2",
+        "2": "1",
+        "3": "1",
+        "4": "1"
+      }
+    }
   },
   "workExperience": {
-
+    "title": "#WORK EXPERIENCE",
+    "intro": "소개",
+    "myWork": "기여한 부분",
+    "tech": "사용기술",
+    "pnpSecure": {
+      "name": "피앤피시큐어",
+      "roles": {
+        "0": "Frontend",
+        "1": "Backend",
+        "2": "iOS",
+        "3": "Android"
+      },
+      "hireDate": "2019.04 ~ 2024.08",
+      "teamInfo": "웹플랫폼2팀 / 연구원",
+      "project": {
+        "0": {
+          "title": "사용자 결재 시스템 개발",
+          "dueDate": "2023.07 ~ 2024.08 / 2020.01 ~ 2020.07",
+          "intro": "서버 및 DBMS 계정, 명령어 등 권한을 부여받기 위해 신청서를 작성하고 결재를 제공하는 시스템으로서, Frontend와 Backend 개발을 담당하였습니다. 특히 Frontend의 개발환경과 UX를 개선하기 위해 노력했습니다.",
+          "myWork": {
+            "0": "Webpack-bundle-analyzer 를 통해 리소스 감소 및 속도 개선",
+            "1": "다국어 적용을 통한 제품 판매 범위 확대",
+            "2": "NodeJS 버전 업데이트, storybook 도입 등 Frontend 개발 환경 관리",
+            "3": "Cypress 도입을 통한 버그 비율 개선",
+            "4": "SSE 적용을 통한 UX 개선 (실시간 진행 상황 확인 구현)"
+          },
+          "tech": {
+            "0": "VueJS",
+            "1": "SCSS",
+            "2": "Pinia",
+            "3": "NodeJS",
+            "4": "Spring",
+            "5": "JAVA",
+            "6": "MariaDB",
+            "7": "Tomcat",
+            "8": "Storybook"
+          }
+        },
+        "1": {
+          "title": "실시간 안면인식 관리시스템 개발",
+          "dueDate": "2021.01 ~ 2023.06",
+          "intro": "사용자의 안면정보를 이용해 인증을 하는 시스템으로서 Frontend와 Backend 개발을 담당하였습니다. 특히 API 개선과 실시간 데이터를 명확하게 전달할 수 있는 UI 설계에 중점을 두고 개발했습니다.",
+          "myWork": {
+            "0": "크로스 브라우징 대응을 통한 브라우저 지원 확대",
+            "1": "대시보드 UI 설계 및 구현",
+            "2": "Redis 적용을 통한 안면인식 관리시스템 API 조회 속도 개선",
+            "3": "API 개선을 통한 CPU 사용량 40% 감축",
+            "4": "파일 분할 처리, 컴포넌트 분리 등 코드 가독성 개선"
+          },
+          "tech": {
+            "0": "VueJS",
+            "1": "SCSS",
+            "2": "GraphQL",
+            "3": "NodeJS",
+            "4": "Webpack",
+            "5": "JAVA",
+            "6": "SpringBoot",
+            "7": "Tomcat",
+            "8": "Redis",
+            "9": "MariaDB"
+          }
+        },
+        "2": {
+          "title": "사내 제품 라이선스 시스템 개발",
+          "dueDate": "2020.12 ~ 2020.12",
+          "intro": "사내 OTP를 사용하는 고객사를 관리하기 위한 시스템으로서 Frontend와 Backend 개발을 담당하였습니다. 급히 진행된 일정이었던만큼 NodeJS 기반으로 일주일 만에 개발을 완료했습니다.",
+          "myWork": {
+            "0": "Frontend/Backend 기술환경 구성 및 기본 기능 구현",
+            "1": "RESTful API 설계 및 개발",
+            "2": "대량 데이터 처리를 위한 무한 스크롤 컴포넌트 개발"
+          },
+          "tech": {
+            "0": "VueJS",
+            "1": "SCSS",
+            "2": "MongoDB",
+            "3": "NodeJS",
+            "4": "Webpack"
+          }
+        },
+        "3": {
+          "title": "OTP 모바일 앱 개발",
+          "dueDate": "2020.08 ~ 2020.12",
+          "intro": "인증 시스템에서 사용하는 자사 전용 OTP 생성 모바일 앱으로서 아키텍처 설계, 개발부터 배포까지 혼자 맡아 진행했습니다.",
+          "myWork": {
+            "0": "Google Material Design 기반 모바일 UI 설계 및 개발",
+            "1": "iOS, Android 앱 심사 및 배포 프로세스 경험",
+            "2": "모바일 앱 아키텍처 설계"
+          },
+          "tech": {
+            "0": "Swift",
+            "1": "Android (JAVA)"
+          }
+        },
+        "4": {
+          "title": "영업관리 사내 시스템 개선",
+          "dueDate": "2019.04 ~ 2019.12",
+          "intro": "제품 수주, 고객사 관리 등 사내에서 사용하는 영업관리 시스템으로서 Frontend와 Backend 개발을 담당하였습니다. 느린 조회 속도 등 기존에 있던 문제점을 해결하고, Frontend의 기술환경을 개선하기 위해 노력했습니다.",
+          "myWork": {
+            "0": "Javascript ES6 적용",
+            "1": "메인 페이지 UI 개선",
+            "2": "쿼리 튜닝을 통한 영업관리 조회 속도 개선"
+          },
+          "tech": {
+            "0": "Javascript",
+            "1": "HTML/CSS",
+            "2": "NodeJS",
+            "3": "JSP",
+            "4": "Spring",
+            "5": "JAVA",
+            "6": "MariaDB",
+            "7": "Tomcat"
+          }
+        }
+      }
+    },
+    "KLNet": {
+      "name": "케이엘넷",
+      "roles": {
+        "0": "Frontend",
+        "1": "Backend"
+      },
+      "hireDate": "2016.10 ~ 2018.04",
+      "teamInfo": "eBiz개발팀 / 사원",
+      "project": {
+        "0": {
+          "title": "전자세금계산서 시스템 유지보수",
+          "dueDate": "2017.05 ~ 2018.04",
+          "intro": "세금계산서를 웹에서 발행하고, 조회하는 시스템으로 Frontend와 Backend 개발을 개발했습니다. 기본적인 유지보수를 비롯해 비즈니스의 요구에 맞는 다양한 새로운 기능을 개발했습니다.",
+          "myWork": {
+            "0": "ISMS 인증 대응",
+            "1": "계산서 발행 알림톡 기능 추가",
+            "2": "기존 비즈니스 로직 유지보수"
+          },
+          "tech": {
+            "0": "JSP",
+            "1": "Spring",
+            "2": "JAVA",
+            "3": "Oracle",
+            "4": "Tomcat",
+            "5": "Jenkins"
+          }
+        },
+        "1": {
+          "title": "전자세금계산서 시스템 UI 개선",
+          "dueDate": "2016.10 ~ 2017.04",
+          "intro": "인턴으로 부여받은 첫 업무로서, IE 브라우저의 Flash 지원 종료에 따라 Flex에서 JSP로 UI를 개선했습니다.",
+          "myWork": {
+            "0": "레거시 코드 청산",
+            "1": "사용자정보 관리, 세금계산서 조회 UI 개선",
+            "2": "브라우저 별 호환성 테스트 및 대응"
+          },
+          "tech": {
+            "0": "JSP",
+            "1": "Flex",
+            "2": "Spring",
+            "3": "JAVA",
+            "4": "Oracle",
+            "5": "Tomcat",
+            "6": "Jenkins"
+          }
+        }
+      }
+    }
   },
   "otherExperience": {
-
+    "title": "#OTHER EXPERIENCE",
+    "project": {
+      "0": {
+        "title": "react-scroll-header-loading",
+        "role": "Owner",
+        "desc": "Javascript의 scroll event 기반으로 움직이는 상단 loading bar 컴포넌트입니다. 출시한지 2주만에 300회 이상의 다운로드를 기록하고 있습니다.",
+        "tech": {
+          "0": "ReactJS",
+          "1": "Javascript",
+          "2": "rollup",
+          "3": "Babel"
+        }
+      },
+      "1": {
+        "title": "조코딩 AI 해커톤 with Google 참여 - 나만의 비타민 AI 솔루션 서비스",
+        "role": "Frontend 개발",
+        "desc": "Gemini API를 통해 영양제 추천, 영양제 조합을 제공합니다. Frontend 개발을 혼자 담당하였고, 기술환경 세팅, Skeleton loading 구현 등을 4일 동안 개발했습니다.",
+        "tech": {
+          "0": "ReactJS",
+          "1": "Javascript",
+          "2": "SCSS",
+          "3": "Tailwind CSS",
+          "4": "Zustand",
+          "5": "Babel"
+        }
+      },
+      "2": {
+        "title": "resume-template",
+        "role": "Owner",
+        "desc": "NextJS와 Typescript 기반 이력서 웹 템플릿을 구현했습니다.",
+        "tech": {
+          "0": "ReactJS",
+          "1": "Typescript",
+          "2": "NextJS",
+          "3": "SCSS",
+          "4": "Tailwind CSS",
+          "5": "Babel"
+        }
+      },
+      "3": {
+        "title": "AI 입사 컨설팅",
+        "role": "Frontend 개발",
+        "desc": "사용자의 코딩 수준, 진행한 프로젝트 등 여러 정보를 AI로 처리하여 회사를 추천합니다. Frontend 개발을 전반적으로 담당하며, 진행 중입니다.",
+        "tech": {
+          "0": "ReactJS",
+          "1": "Typescript",
+          "2": "Vite",
+          "3": "Zustand",
+          "4": "Tailwind CSS",
+          "5": "Storybook",
+          "6": "Cypress"
+        }
+      }
+    }
+  },
+  "educationList": {
+    "title": "#EDUCATION",
+    "0": {
+      "name": "인하대학교",
+      "status": "졸업예정",
+      "desc": "소프트웨어융합공학과 21학번으로, 2025년 2월 졸업예정입니다."
+    },
+    "1": {
+      "name": "미림여자정보과학고등학교",
+      "status": "졸업",
+      "desc": "2014년도 뉴미디어 솔루션과에 입학한 후 2016년 졸업했습니다. 이후 바로 웹개발자로서 커리어를 시작했습니다."
+    }
   }
 }

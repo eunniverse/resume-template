@@ -129,16 +129,17 @@ body {
   }
 }
 
-.front-tech-tag {
+.Frontend-tech-tag {
   @apply tech-tag bg-green-500;
 }
 
-.backend-tech-tag {
-  @apply tech-tag bg-blue-500;
+.Backend-tech-tag {
+  @apply tech-tag bg-blue-500 ml-1;
 }
 
-.mobile-tech-tag {
-  @apply tech-tag bg-gray-600;
+.iOS-tech-tag,
+.Android-tech-tag {
+  @apply tech-tag bg-gray-600 ml-1;
 }
 
 .tech-stack-tag {
@@ -182,7 +183,7 @@ body {
 }
 
 .other-experience-tag {
-  @apply tech-tag bg-yellow-600 ml-2.5 pl-2 pr-2 whitespace-nowrap;
+  @apply tech-tag bg-yellow-600 ml-2.5 pl-2 pr-2 whitespace-nowrap text-xs;
 }
 
 .level-tag {
@@ -195,4 +196,8 @@ body {
 
 .npm-tag {
   @apply text-5xl inline text-red-700;
+}
+
+.h1-title {
+  @apply text-primary font-extrabold text-3xl sm:text-4xl;
 }
