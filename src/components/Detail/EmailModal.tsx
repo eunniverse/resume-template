@@ -87,7 +87,7 @@ export const EmailModal = (props: Props) => {
                             {/*div 를 flex 로 하고 button 에 ml-auto 추가하면 오른쪽 정렬됨 */}
                             <div className='flex w-100 pt-6'>
                                 <button type="submit" className="ml-auto text-white inline-flex items-center common-btn focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-1.5 text-right">
-                                    전송
+                                    {t('send')}
                                 </button>
                             </div>
                         </form>
