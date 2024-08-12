@@ -9,6 +9,14 @@ interface Props {
     techCount: number;
 }
 
+/**
+ * #WORK EXPERIENCE 의 오른쪽 영역
+ * @param index
+ * @param office
+ * @param myWorkCount
+ * @param techCount
+ * @constructor
+ */
 const WorkProject = ({index, office, myWorkCount, techCount}: Props) => {
     const t = useTranslations('workExperience');
     const myWork = useTranslationArray(`workExperience.${office}.project.${index}.myWork`, myWorkCount);

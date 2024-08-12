@@ -11,6 +11,14 @@ interface Props {
     github?: any;
 }
 
+/**
+ * #OTHER EXPERIENCE 영역
+ * @param index
+ * @param techCount
+ * @param npm
+ * @param github
+ * @constructor
+ */
 const OtherProject = ({index, techCount, npm, github}: Props) => {
     const t = useTranslations(`otherExperience.project.${index}`);
     const techList = useTranslationArray(`otherExperience.project.${index}.tech`, techCount);

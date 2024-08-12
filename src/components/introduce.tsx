@@ -13,7 +13,7 @@ export const Introduce = () => {
             <h1 className='h1-title'>{t('title')}</h1>
             <div className='flex flex-col sm:flex-row w-full'>
                 <div className='flex-shrink-0 w-full sm:w-72'>
-                    <img className='mt-4 mx-auto sm:mx-0' src='/images/avatar.png' alt='Avatar'/>
+                    <img className='mt-4 mx-auto sm:mx-0' src='/images/sample.png' alt='Avatar'/>
                 </div>
                 <div className='flex-grow w-full pt-4 sm:pt-0 sm:pl-6'>
                     <h1 className='text-xl sm:text-2xl font-medium'>

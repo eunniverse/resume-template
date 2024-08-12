@@ -19,12 +19,12 @@ export const Header = () => {
 
     const handleBlogClickEvent = (event: React.MouseEvent<HTMLElement>) => {
         event.preventDefault();
-        window.open('https://velog.io/@eunivverse/posts');
+        window.open('{blogURL}');
     }
 
     const handleGitClickEvent = (event: React.MouseEvent<HTMLElement>) => {
         event.preventDefault();
-        window.open('https://github.com/eunniverse');
+        window.open('{GITURL}');
     }
 
     // @ts-ignore

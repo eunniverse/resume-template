@@ -1,12 +1,20 @@
 import React from 'react';
 
 interface Props {
-    companyName: string;
-    roles: string[];
-    hireDate: string;
-    teamInfo: string;
+    companyName: string; // 회사명
+    roles: string[]; // 역할 (Frontend, Backend, iOS, Android 로 설정되어있으며, 필요할 경우 global.css > {role}-tech-tag 추가)
+    hireDate: string; // 재직 기간
+    teamInfo: string; // 팀 정보
 }
 
+/**
+ * #WORK EXPERIENCE 의 왼쪽 영역
+ * @param companyName
+ * @param roles
+ * @param hireDate
+ * @param teamInfo
+ * @constructor
+ */
 const WorkOffice = ({companyName, roles, hireDate, teamInfo}: Props) => {
     return (
         <div className='flex-shrink-0 w-full sm:w-72 mb-4 sm:mb-0'>

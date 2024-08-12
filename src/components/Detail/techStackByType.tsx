@@ -4,8 +4,8 @@ import {useTranslations} from "next-intl";
 import {useTranslationArray} from "../../../utils/CommonUtil";
 
 interface Props {
-    type: string;
-    length: number;
+    type: string; // frontend, backend ...
+    length: number; // 각 type 별 기재할 기술스택
 }
 
 const TechStackByType = ({type, length} :Props) => {

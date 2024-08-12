@@ -2,6 +2,10 @@ import React from 'react';
 import {useTranslations} from "next-intl";
 import Education from "@/components/Detail/education";
 
+/**
+ * #EDUCATION 영역
+ * @constructor
+ */
 const EducationList = () => {
     const t = useTranslations('educationList');
 
@@ -11,7 +15,6 @@ const EducationList = () => {
             <div className='flex flex-col w-full'>
                 <div className='w-full'>
                     <Education index={0}/>
-                    <Education index={1}/>
                 </div>
             </div>
         </div>

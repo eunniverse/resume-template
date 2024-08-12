@@ -5,6 +5,11 @@ interface Props {
     index: number;
 }
 
+/**
+ * #EDUCATION > 세부영역
+ * @param index
+ * @constructor
+ */
 const Education = ({index}:Props) => {
     const t = useTranslations(`educationList.${index}`);
 

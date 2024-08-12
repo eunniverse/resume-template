@@ -3,6 +3,10 @@ import { usePathname, useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { useTransition } from 'react';
 
+/**
+ * 다국어 버튼
+ * @constructor
+ */
 const LocaleSwitcher = () => {
     const t = useTranslations('common');
     const router = useRouter();

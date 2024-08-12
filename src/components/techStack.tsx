@@ -3,6 +3,10 @@ import {FaInfoCircle} from "react-icons/fa";
 import {useTranslations} from "next-intl";
 import TechStackByType from "@/components/Detail/techStackByType";
 
+/**
+ * #TECH STACK 영역
+ * @constructor
+ */
 const TechStack = () => {
     const t = useTranslations('techStack');
 
