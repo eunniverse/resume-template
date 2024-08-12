@@ -3,6 +3,8 @@
 ### 설명
 NextJS와 React, Typescript, Tailwind CSS 기반 이력서 템플릿입니다. 영어/한글 처리가 되어있고, 아래 `설정`을 참고하여 사용하면 됩니다.
 
+<img src="sample.gif">
+
 ### 기능
 1. 이력서 다국어 제공 (ko, en)
 2. 이메일 전송 기능 제공
@@ -43,7 +45,7 @@ const descriptions = useTranslationArray('introduce.commentList', 5);
 ```
 
 
-### Getting Started
+### 프로젝트 실행하기
 
 ```bash
 # 설치
@@ -52,4 +54,3 @@ npm install
 # 실행
 npm run dev
 ```
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
